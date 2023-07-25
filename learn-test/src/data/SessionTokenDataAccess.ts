@@ -12,7 +12,7 @@ export class SessionTokenDataAccess {
       valid: true,
       expirationDate: this.generateExpirationTime(),
     });
-    console.log(`Inserting ${tokenId} into the database`);
+    // console.log(`Inserting ${tokenId} into the database`);
     return tokenId;
   }
 
@@ -21,7 +21,7 @@ export class SessionTokenDataAccess {
   }
 
   public async isValidToken(tokenId: string) {
-    console.log(`Quering for ${tokenId} into the database`);
+    // console.log(`Quering for ${tokenId} into the database`);
     const sessionToken = await this.sessionTokensDataBase.getBy("id", tokenId);
     if (sessionToken) {
       return sessionToken.valid;
