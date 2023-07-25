@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Server app integration tests > snapshot demo 1`] = `
+{
+  "endDate": "someEndDate",
+  "id": "12345",
+  "room": "someRoom",
+  "startDate": "someStartDate",
+  "user": "someUser",
+}
+`;
+
+exports[`Server app integration tests > snapshot demo 2`] = `
+{
+  "endDate": "someEndDate",
+  "id": "12345",
+  "room": "someRoom",
+  "startDate": "someStartDate",
+  "user": "someUser",
+}
+`;
