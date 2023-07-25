@@ -1,0 +1,13 @@
+{
+  "name": "javascript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix learn-test ",
+    "install": "npm run install --prefix learn-test "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
