@@ -119,7 +119,7 @@ export class ReservationsHandler {
             await this.reservationsDataAccess.updateReservation(
               id,
               property as keyof Reservation,
-              requestBody[property]
+              requestBody[property as keyof Reservation]
             );
           }
           this.response.writeHead(HTTP_CODES.OK, {
